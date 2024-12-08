@@ -45,7 +45,7 @@ int main(void)
 	if ((rom_file = fopen(in_line, "rb")) == NULL)
 	{
 		fprintf(stderr, "Can't open %s, trying to load IBM ROM test instead.\n", in_line);
-		rom_file = fopen("ROMS/IBM Logo.ch8", "rb"); // force load test
+		rom_file = fopen("IBM Logo.ch8", "rb"); // force load test
 	}
 
 
